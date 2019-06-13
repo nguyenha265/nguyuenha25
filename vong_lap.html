@@ -6,13 +6,13 @@
 </head>
 <body>
 <script>
-    let number = parseInt(prompt("số nguyên tố cần in ra"));
-    let count = 0;
-    for (n = 2; count < number;) {
-        if (n % 1 == 0 && n % n == 0) {
-            document.write(n);
-            count++;
-            n++;
+     for(let i = 2;i<10000;i++){
+        if(ham(i)){
+            document.write(i+"<br>")
+        }
+    }
+    for(let i = 2;i<N;i++){
+        if(N%i==0){
         }
     }
 </script>
